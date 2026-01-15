@@ -23,22 +23,6 @@ A secure cloud storage system that implements advanced encryption methods to pro
 - 🎨 **Modern UI**: React-based responsive interface
 - 📊 **File Management**: List, download, and delete encrypted files
 
-## 🏗️ Architecture
-
-\`\`\`
-┌─────────────┐ ┌──────────────┐ ┌─────────────┐
-│ React │──────▶│ Flask │──────▶│ AWS S3 │
-│ Frontend │◀──────│ Backend │◀──────│ Storage │
-└─────────────┘ └──────────────┘ └─────────────┘
-│ │
-│ │
-▼ ▼
-┌─────────────┐ ┌──────────────┐
-│ User │ │ AES-256-GCM │
-│ Auth/JWT │ │ Encryption │
-└─────────────┘ └──────────────┘
-\`\`\`
-
 ## 🛠️ Technology Stack
 
 ### Backend
@@ -388,23 +372,11 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 
 - GitHub: [@DEVIKAKASTHALA](https://github.com/DEVIKAKASTHALA)
 - Project: Advanced Encryption for Secure Cloud Storage
-- Institution: Texas Tech University
+- Institution: Vel Tech Dr. Sagunthaala (R&D Institute of Science and Technology)
 
 ## 🙏 Acknowledgments
 
-- Texas Tech University
-- Dr. Sagunthaala (R&D Institute of Science and Technology)
+Vel Tech Dr. Sagunthaala (R&D Institute of Science and Technology)
 - AWS Documentation
 - PyCryptodome Library
 
-## 📞 Support
-
-For issues or questions:
-
-- Open an issue on GitHub
-- Email: devika.kasthala@example.com
-
----
-
-⭐ **Star this repository if you find it useful!**
-"@ | Out-File -FilePath "README.md" -Encoding UTF8
